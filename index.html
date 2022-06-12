@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
 <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 <py-env>
+    - os
     - paths:
-      - /hsn_codes.py
+      - hsn_codes.py
   </py-env>
 </head>
 <body>
 
     <body>
+        
         how to code
         <py-script>
 print("Hello, World!") 
+os.getcwd() 
 from hsn_codes import aa
 for j in range(10):
         for i,ii in aa[j]['tax_slab'].items():
