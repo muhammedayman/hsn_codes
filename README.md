@@ -1,5 +1,7 @@
 # hsn_codes
-test how the codes
+test how to code
+
+https://muhammedayman.github.io/hsn_codes/
 
 from hsn.hsn_codes import aa
 for j in range(10):
