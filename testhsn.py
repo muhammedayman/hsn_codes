@@ -1,4 +1,4 @@
-from hsn.hsn_codes import aa
+from hsn_codes import aa
 def test_code():
     for j in range(10):
         for i,ii in aa[j]['tax_slab'].items():

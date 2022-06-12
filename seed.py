@@ -1,7 +1,7 @@
 
 #seeding hsn codes to HSNProduct table
 
-from hsn.hsn_codes import aa
+from hsn_codes import aa
 cc=len(aa)
 for j in range(cc):
 	for i,ii in aa[j]['tax_slab'].items():
